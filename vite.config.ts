@@ -4,6 +4,7 @@ import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/Alexander-AI-Jarvis-Modal/',
   plugins: [react()],
   resolve: {
     alias: {
